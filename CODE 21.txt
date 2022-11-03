@@ -1,0 +1,16 @@
+ //Girilen Sayının Yüzler,Onlar,Birler Basamağındaki Değeri Bulan Program
+	int sayi,yuzler,onlar,birler;
+	
+	printf("Bir Sayi Giriniz: ");
+	scanf("%d",&sayi);
+	
+	yuzler=sayi/100;
+	printf("Girdiginiz Sayinin Yuzler Basamagi: %d\n",yuzler);
+	
+	onlar=sayi/10;
+	onlar=onlar%10;
+	printf("Girdiginiz Sayinin Onlar Basamagi: %d\n",onlar);
+	
+	birler=sayi%100;
+	birler=birler%10;
+	printf("Girdiginiz Sayinin Birler Basamagi: %d",birler);
